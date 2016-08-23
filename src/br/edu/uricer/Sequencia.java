@@ -17,17 +17,21 @@ public class Sequencia {
     private int media;
     
     private List<Integer> numero = new ArrayList<>();
-    
-    public Sequencia(int[] numeros){
-        for(int i : numeros){
+
+    public Sequencia(int[] numeros) {
+        
+        for(int i : numeros)
         numero.add(i);
-        }
+   
     }
-    
-    public int valorMinimo(){
+
+   
+
+       
+    public int valorMaximo(){
         return Collections.max(numero);
     }
-    public int valorMaximo(){
+    public int valorMinimo(){
         return Collections.min(numero);
     }
     public int numeroDeElementos(){
