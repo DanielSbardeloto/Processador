@@ -24,9 +24,6 @@ public class Sequencia {
         numero.add(i);
    
     }
-
-   
-
        
     public int valorMaximo(){
         return Collections.max(numero);

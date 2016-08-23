@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author aluno
+ * @author DanielS
  */
 public class SequenciaTest {
     
@@ -40,7 +40,13 @@ public class SequenciaTest {
         assertEquals(resultado, saida);
         
     }
-   
+    @Test
+    public void testValorMedio() {
+        double saida = 21.833333333333332;
+        double resultado = processo.media();
+        assertEquals( 0, resultado,  saida);
+        
+    }
 
     
 }
