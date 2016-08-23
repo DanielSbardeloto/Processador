@@ -40,6 +40,7 @@ public class SequenciaTest {
         assertEquals(resultado, saida);
         
     }
+   
 
     
 }
